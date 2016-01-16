@@ -1,0 +1,6 @@
+可能产生以下问题:
+  编译报错：Project : error PRJ0019: A tool returned an error code from "Generating qgssearchstringparser.cpp"，查看BuildLog.htm，是 bison.exe -o E:\OpenSourceProject\qgis_1.4.0\qgis-1.4.0/build/src/core/qgssearchstringparser.cpp -d -v -t E:\OpenSourceProject\qgis_1.4.0\qgis-1.4.0/src/core/qgssearchstringparser.yy 错误。网上查了很久，也试了很多方法，都解决不了。最后尝试手工用命令行，进入bison.exe所在的目录，
+手工执行“bison.exe -o E:\OpenSourceProject\qgis_1.4.0\qgis-1.4.0/build/src/core/qgssearchstringparser.cpp -d -v -t E:\OpenSourceProject\qgis_1.4.0\qgis-1.4.0/src/core/qgssearchstringparser.yy”。编译qgis_core成功。
+我的用法：
+E:\QGIS\GnuWin32\bin>bison.exe -o E:\QGIS\Build174\src\core\qgssearchstringparse
+r.cpp -d -v -t E:\QGIS\qgis-1.7.4\src\core\qgssearchstringparser.yy
