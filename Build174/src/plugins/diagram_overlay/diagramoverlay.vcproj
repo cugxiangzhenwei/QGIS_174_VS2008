@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="diagramoverlay"
+	ProjectGUID="{0557ECD8-EC6E-4109-9947-AC8D528E40E5}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="diagramoverlay.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;diagramoverlay_EXPORTS"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\diagram_overlay\Debug/diagramoverlay.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;diagramoverlay_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Debug\qgis_core.lib ..\..\gui\Debug\qgis_gui.lib ..\..\core\Debug\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmaind.lib C:\Qt\4.8.1\lib\QtXmld4.lib C:\Qt\4.8.1\lib\QtCored4.lib C:\Qt\4.8.1\lib\QtGuid4.lib C:\Qt\4.8.1\lib\QtNetworkd4.lib C:\Qt\4.8.1\lib\QtSvgd4.lib C:\Qt\4.8.1\lib\QtUiToolsd.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\diagram_overlay\Debug\diagramoverlay.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\diagram_overlay\Debug\diagramoverlay.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\diagram_overlay\Debug\diagramoverlay.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="diagramoverlay.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;diagramoverlay_EXPORTS"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\diagram_overlay\Release/diagramoverlay.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;diagramoverlay_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Release\qgis_core.lib ..\..\gui\Release\qgis_gui.lib ..\..\core\Release\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\diagram_overlay\Release\diagramoverlay.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\diagram_overlay\Release\diagramoverlay.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\diagram_overlay\Release\diagramoverlay.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="diagramoverlay.dir\MinSizeRel"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;diagramoverlay_EXPORTS"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\diagram_overlay\MinSizeRel/diagramoverlay.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;diagramoverlay_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\MinSizeRel\qgis_core.lib ..\..\gui\MinSizeRel\qgis_gui.lib ..\..\core\MinSizeRel\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\diagram_overlay\MinSizeRel\diagramoverlay.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\diagram_overlay\MinSizeRel\diagramoverlay.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\diagram_overlay\MinSizeRel\diagramoverlay.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="diagramoverlay.dir\RelWithDebInfo"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;diagramoverlay_EXPORTS"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\diagram_overlay\RelWithDebInfo/diagramoverlay.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\diagram_overlay;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\pal;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;diagramoverlay_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\RelWithDebInfo\qgis_core.lib ..\..\gui\RelWithDebInfo\qgis_gui.lib ..\..\core\RelWithDebInfo\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\diagram_overlay\RelWithDebInfo\diagramoverlay.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\diagram_overlay\RelWithDebInfo\diagramoverlay.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\diagram_overlay\RelWithDebInfo\diagramoverlay.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialogbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsdiagramdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgsdiagramdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgsdiagramdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgsdiagramdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsdiagramdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgsdiagramdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgsdiagramdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgsdiagramdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsdiagramdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgsdiagramdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgsdiagramdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgsdiagramdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsdiagramdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgsdiagramdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgsdiagramdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgsdiagramdialogbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialogbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgslinearlyscalingdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgslinearlyscalingdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgslinearlyscalingdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgslinearlyscalingdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgslinearlyscalingdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgslinearlyscalingdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgslinearlyscalingdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgslinearlyscalingdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgslinearlyscalingdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgslinearlyscalingdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgslinearlyscalingdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgslinearlyscalingdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgslinearlyscalingdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgslinearlyscalingdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgslinearlyscalingdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgslinearlyscalingdialogbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidgetbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgssvgdiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgssvgdiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgssvgdiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgssvgdiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgssvgdiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgssvgdiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgssvgdiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgssvgdiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgssvgdiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgssvgdiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgssvgdiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgssvgdiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgssvgdiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgssvgdiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgssvgdiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgssvgdiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidgetbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgswkndiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgswkndiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgswkndiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgswkndiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgswkndiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgswkndiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgswkndiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgswkndiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgswkndiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgswkndiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgswkndiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgswkndiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgswkndiagramfactorywidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/diagram_overlay/ui_qgswkndiagramfactorywidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/qgswkndiagramfactorywidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgswkndiagramfactorywidgetbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/diagram_overlay/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialog.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramcategory.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramfactory.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactory.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidget.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsbardiagramfactory.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgspiediagramfactory.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactory.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidget.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramfactorywidget.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramoverlay.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramoverlayplugin.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramrenderer.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramrendererwidget.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialog.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramoverlayplugin.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramdialog.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgslinearlyscalingdialog.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgssvgdiagramfactorywidget.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgswkndiagramfactorywidget.cxx">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgsdiagramdialogbase.h">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgslinearlyscalingdialogbase.h">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgssvgdiagramfactorywidgetbase.h">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\ui_qgswkndiagramfactorywidgetbase.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramoverlayplugin.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramoverlayplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramoverlayplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramoverlayplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramoverlayplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramoverlayplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramoverlayplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramoverlayplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramoverlayplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramoverlayplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramoverlayplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramoverlayplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramoverlayplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramoverlayplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramoverlayplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramoverlayplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramoverlayplugin.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramdialog.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsdiagramdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsdiagramdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgsdiagramdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgsdiagramdialog.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgslinearlyscalingdialog.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgslinearlyscalingdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgslinearlyscalingdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgslinearlyscalingdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgslinearlyscalingdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgslinearlyscalingdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgslinearlyscalingdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgslinearlyscalingdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgslinearlyscalingdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgslinearlyscalingdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgslinearlyscalingdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgslinearlyscalingdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgslinearlyscalingdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgslinearlyscalingdialog.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgssvgdiagramfactorywidget.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgssvgdiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgssvgdiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgssvgdiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgssvgdiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgssvgdiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgssvgdiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgssvgdiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgssvgdiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgssvgdiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgssvgdiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgssvgdiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgssvgdiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgssvgdiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgswkndiagramfactorywidget.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgswkndiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgswkndiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgswkndiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgswkndiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgswkndiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgswkndiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgswkndiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgswkndiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgswkndiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgswkndiagramfactorywidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\diagram_overlay&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgswkndiagramfactorywidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\diagram_overlay\qgswkndiagramfactorywidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\diagram_overlay\moc_qgswkndiagramfactorywidget.cxx"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

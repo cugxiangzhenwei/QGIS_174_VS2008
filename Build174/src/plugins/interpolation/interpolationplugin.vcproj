@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="interpolationplugin"
+	ProjectGUID="{6B6AC3F6-837C-4DF6-9C97-82152398A2C4}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="interpolationplugin.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;interpolationplugin_EXPORTS"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\interpolation\Debug/interpolationplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;interpolationplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\analysis\Debug\qgis_analysis.lib ..\..\core\Debug\qgis_core.lib ..\..\gui\Debug\qgis_gui.lib ..\..\core\Debug\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmaind.lib C:\Qt\4.8.1\lib\QtXmld4.lib C:\Qt\4.8.1\lib\QtCored4.lib C:\Qt\4.8.1\lib\QtGuid4.lib C:\Qt\4.8.1\lib\QtNetworkd4.lib C:\Qt\4.8.1\lib\QtSvgd4.lib C:\Qt\4.8.1\lib\QtUiToolsd.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\interpolation\Debug\interpolationplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\interpolation\Debug\interpolationplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\interpolation\Debug\interpolationplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="interpolationplugin.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;interpolationplugin_EXPORTS"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\interpolation\Release/interpolationplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;interpolationplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\analysis\Release\qgis_analysis.lib ..\..\core\Release\qgis_core.lib ..\..\gui\Release\qgis_gui.lib ..\..\core\Release\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\interpolation\Release\interpolationplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\interpolation\Release\interpolationplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\interpolation\Release\interpolationplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="interpolationplugin.dir\MinSizeRel"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;interpolationplugin_EXPORTS"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\interpolation\MinSizeRel/interpolationplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;interpolationplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\analysis\MinSizeRel\qgis_analysis.lib ..\..\core\MinSizeRel\qgis_core.lib ..\..\gui\MinSizeRel\qgis_gui.lib ..\..\core\MinSizeRel\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\interpolation\MinSizeRel\interpolationplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\interpolation\MinSizeRel\interpolationplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\interpolation\MinSizeRel\interpolationplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="interpolationplugin.dir\RelWithDebInfo"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;interpolationplugin_EXPORTS"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\interpolation\RelWithDebInfo/interpolationplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\interpolation;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\analysis\interpolation;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\..;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;interpolationplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\analysis\RelWithDebInfo\qgis_analysis.lib ..\..\core\RelWithDebInfo\qgis_core.lib ..\..\gui\RelWithDebInfo\qgis_gui.lib ..\..\core\RelWithDebInfo\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\interpolation\RelWithDebInfo\interpolationplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\interpolation\RelWithDebInfo\interpolationplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\interpolation\RelWithDebInfo\interpolationplugin.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_interpolator.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name interpolator -o E:/QGIS/Build174/src/plugins/interpolation/qrc_interpolator.cxx E:/QGIS/qgis-1.7.4/src/plugins/interpolation/interpolator.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\options.png;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolation.png;E:\QGIS\Build174\src\plugins\interpolation\interpolator.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\qrc_interpolator.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_interpolator.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name interpolator -o E:/QGIS/Build174/src/plugins/interpolation/qrc_interpolator.cxx E:/QGIS/qgis-1.7.4/src/plugins/interpolation/interpolator.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\options.png;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolation.png;E:\QGIS\Build174\src\plugins\interpolation\interpolator.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\qrc_interpolator.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_interpolator.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name interpolator -o E:/QGIS/Build174/src/plugins/interpolation/qrc_interpolator.cxx E:/QGIS/qgis-1.7.4/src/plugins/interpolation/interpolator.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\options.png;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolation.png;E:\QGIS\Build174\src\plugins\interpolation\interpolator.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\qrc_interpolator.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_interpolator.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name interpolator -o E:/QGIS/Build174/src/plugins/interpolation/qrc_interpolator.cxx E:/QGIS/qgis-1.7.4/src/plugins/interpolation/interpolator.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\options.png;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolation.png;E:\QGIS\Build174\src\plugins\interpolation\interpolator.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\qrc_interpolator.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialogbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsidwinterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsidwinterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsidwinterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsidwinterpolatordialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsidwinterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsidwinterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsidwinterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsidwinterpolatordialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsidwinterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsidwinterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsidwinterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsidwinterpolatordialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsidwinterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsidwinterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsidwinterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsidwinterpolatordialogbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialogbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsinterpolationdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsinterpolationdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsinterpolationdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsinterpolationdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsinterpolationdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsinterpolationdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsinterpolationdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsinterpolationdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsinterpolationdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsinterpolationdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsinterpolationdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsinterpolationdialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsinterpolationdialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgsinterpolationdialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgsinterpolationdialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsinterpolationdialogbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialogbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgstininterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgstininterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgstininterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgstininterpolatordialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgstininterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgstininterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgstininterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgstininterpolatordialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgstininterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgstininterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgstininterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgstininterpolatordialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgstininterpolatordialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/interpolation/ui_qgstininterpolatordialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/interpolation/qgstininterpolatordialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\ui_qgstininterpolatordialogbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/interpolation/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/interpolation/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/interpolation/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/interpolation/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\interpolator.qrc;E:\QGIS\qgis-1.7.4\src\plugins\interpolation\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationplugin.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialog.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialog.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolatordialog.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialog.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationplugin.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgstininterpolatordialog.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsidwinterpolatordialog.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationdialog.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\qrc_interpolator.cxx">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsidwinterpolatordialogbase.h">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\ui_qgsinterpolationdialogbase.h">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\ui_qgstininterpolatordialogbase.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationplugin.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationplugin.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgstininterpolatordialog.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgstininterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgstininterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgstininterpolatordialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgstininterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgstininterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgstininterpolatordialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgstininterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgstininterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgstininterpolatordialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgstininterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgstininterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgstininterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgstininterpolatordialog.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsidwinterpolatordialog.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsidwinterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsidwinterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsidwinterpolatordialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsidwinterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsidwinterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsidwinterpolatordialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsidwinterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsidwinterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsidwinterpolatordialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsidwinterpolatordialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsidwinterpolatordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsidwinterpolatordialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsidwinterpolatordialog.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationdialog.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationdialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsinterpolationdialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\interpolation&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsinterpolationdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\interpolation\qgsinterpolationdialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\interpolation\moc_qgsinterpolationdialog.cxx"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

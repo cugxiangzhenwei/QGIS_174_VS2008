@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="spatialqueryplugin"
+	ProjectGUID="{4B094784-2BB2-4903-BC33-E349C89B5105}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="spatialqueryplugin.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;spatialqueryplugin_EXPORTS"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\spatialquery\Debug/spatialqueryplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;spatialqueryplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Debug\qgis_core.lib ..\..\gui\Debug\qgis_gui.lib ..\..\core\Debug\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmaind.lib C:\Qt\4.8.1\lib\QtXmld4.lib C:\Qt\4.8.1\lib\QtCored4.lib C:\Qt\4.8.1\lib\QtGuid4.lib C:\Qt\4.8.1\lib\QtNetworkd4.lib C:\Qt\4.8.1\lib\QtSvgd4.lib C:\Qt\4.8.1\lib\QtUiToolsd.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\spatialquery\Debug\spatialqueryplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\spatialquery\Debug\spatialqueryplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\spatialquery\Debug\spatialqueryplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="spatialqueryplugin.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;spatialqueryplugin_EXPORTS"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\spatialquery\Release/spatialqueryplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;spatialqueryplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Release\qgis_core.lib ..\..\gui\Release\qgis_gui.lib ..\..\core\Release\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\spatialquery\Release\spatialqueryplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\spatialquery\Release\spatialqueryplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\spatialquery\Release\spatialqueryplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="spatialqueryplugin.dir\MinSizeRel"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;spatialqueryplugin_EXPORTS"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\spatialquery\MinSizeRel/spatialqueryplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;spatialqueryplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\MinSizeRel\qgis_core.lib ..\..\gui\MinSizeRel\qgis_gui.lib ..\..\core\MinSizeRel\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\spatialquery\MinSizeRel\spatialqueryplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\spatialquery\MinSizeRel\spatialqueryplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\spatialquery\MinSizeRel\spatialqueryplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="spatialqueryplugin.dir\RelWithDebInfo"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;spatialqueryplugin_EXPORTS"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\spatialquery\RelWithDebInfo/spatialqueryplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\spatialquery;E:\QGIS\Build174\src\plugins\spatialquery\..\..\ui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\..;E:\QGIS\Depends\geos\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;spatialqueryplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\RelWithDebInfo\qgis_core.lib ..\..\gui\RelWithDebInfo\qgis_gui.lib ..\..\core\RelWithDebInfo\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\spatialquery\RelWithDebInfo\spatialqueryplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\spatialquery\RelWithDebInfo\spatialqueryplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\spatialquery\RelWithDebInfo\spatialqueryplugin.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_qgsspatialquerydialogbase.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name qgsspatialquerydialogbase -o E:/QGIS/Build174/src/plugins/spatialquery/qrc_qgsspatialquerydialogbase.cxx E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\spatialquery.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\selectcreatelayer.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\itemscreatelayer.png;E:\QGIS\Build174\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\qrc_qgsspatialquerydialogbase.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_qgsspatialquerydialogbase.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name qgsspatialquerydialogbase -o E:/QGIS/Build174/src/plugins/spatialquery/qrc_qgsspatialquerydialogbase.cxx E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\spatialquery.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\selectcreatelayer.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\itemscreatelayer.png;E:\QGIS\Build174\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\qrc_qgsspatialquerydialogbase.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_qgsspatialquerydialogbase.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name qgsspatialquerydialogbase -o E:/QGIS/Build174/src/plugins/spatialquery/qrc_qgsspatialquerydialogbase.cxx E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\spatialquery.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\selectcreatelayer.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\itemscreatelayer.png;E:\QGIS\Build174\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\qrc_qgsspatialquerydialogbase.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_qgsspatialquerydialogbase.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name qgsspatialquerydialogbase -o E:/QGIS/Build174/src/plugins/spatialquery/qrc_qgsspatialquerydialogbase.cxx E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\spatialquery.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\selectcreatelayer.png;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\itemscreatelayer.png;E:\QGIS\Build174\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\qrc_qgsspatialquerydialogbase.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsspatialquerydialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/spatialquery/ui_qgsspatialquerydialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\ui_qgsspatialquerydialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsspatialquerydialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/spatialquery/ui_qgsspatialquerydialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\ui_qgsspatialquerydialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsspatialquerydialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/spatialquery/ui_qgsspatialquerydialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\ui_qgsspatialquerydialogbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgsspatialquerydialogbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/spatialquery/ui_qgsspatialquerydialogbase.h E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/qgsspatialquerydialogbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\ui_qgsspatialquerydialogbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/spatialquery/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialogbase.qrc;E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialqueryplugin.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialog.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquery.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsreaderfeatures.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsrubberselectid.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsgeometrycoordinatetransform.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsmngprogressbar.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialqueryplugin.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialquerydialog.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\spatialquery\qrc_qgsspatialquerydialogbase.cxx">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\spatialquery\ui_qgsspatialquerydialogbase.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialqueryplugin.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialqueryplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialqueryplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialqueryplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialqueryplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialqueryplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialqueryplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialqueryplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialqueryplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialqueryplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialqueryplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialqueryplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialqueryplugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialqueryplugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialqueryplugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialqueryplugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialqueryplugin.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialquerydialog.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialquerydialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialquerydialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialquerydialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialquerydialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialquerydialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialquerydialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialquerydialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialquerydialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialquerydialog.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgsspatialquerydialog.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\spatialquery&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgsspatialquerydialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\spatialquery\qgsspatialquerydialog.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\spatialquery\moc_qgsspatialquerydialog.cxx"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

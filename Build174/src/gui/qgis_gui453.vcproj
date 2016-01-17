@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="qgis_gui"
+	ProjectGUID="{44A2614F-EDAB-4E42-9F72-EF791A7E0462}"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="qgis_gui.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="D:\Qt\qt-win-opensource-src-453\include;D:\Qt\qt-win-opensource-src-453\include\QtSvg;D:\Qt\qt-win-opensource-src-453\include\QtWebKit;D:\Qt\qt-win-opensource-src-453\include\QtGui;D:\Qt\qt-win-opensource-src-453\include\QtXml;D:\Qt\qt-win-opensource-src-453\include\QtSql;D:\Qt\qt-win-opensource-src-453\include\QtNetwork;D:\Qt\qt-win-opensource-src-453\include\QtCore;E:\QGIS\Build174;D:\Qt\qt-win-opensource-src-453\include\QtUiTools;E:\QGIS\qgis-1.7.4\src\gui;E:\QGIS\qgis-1.7.4\src\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\gui\..\core;E:\QGIS\qgis-1.7.4\src\gui\..\core\composer;E:\QGIS\qgis-1.7.4\src\gui\..\core\raster;E:\QGIS\qgis-1.7.4\src\gui\..\core\renderer;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology-ng;E:\QGIS\Build174\src\gui;E:\QGIS\Build174\src\gui\..\ui;E:\QGIS\Depends\Sqlite3;E:\QGIS\Depends\geos\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllexport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;qgis_gui_EXPORTS"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\gui\Debug/qgis_gui.pdb"
+				WarningLevel="4"
+				DebugInformationFormat="3"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllexport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;qgis_gui_EXPORTS"
+				AdditionalIncludeDirectories="D:\Qt\qt-win-opensource-src-453\include;D:\Qt\qt-win-opensource-src-453\include\QtSvg;D:\Qt\qt-win-opensource-src-453\include\QtWebKit;D:\Qt\qt-win-opensource-src-453\include\QtGui;D:\Qt\qt-win-opensource-src-453\include\QtXml;D:\Qt\qt-win-opensource-src-453\include\QtSql;D:\Qt\qt-win-opensource-src-453\include\QtNetwork;D:\Qt\qt-win-opensource-src-453\include\QtCore;E:\QGIS\Build174;D:\Qt\qt-win-opensource-src-453\include\QtUiTools;E:\QGIS\qgis-1.7.4\src\gui;E:\QGIS\qgis-1.7.4\src\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\gui\..\core;E:\QGIS\qgis-1.7.4\src\gui\..\core\composer;E:\QGIS\qgis-1.7.4\src\gui\..\core\raster;E:\QGIS\qgis-1.7.4\src\gui\..\core\renderer;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology-ng;E:\QGIS\Build174\src\gui;E:\QGIS\Build174\src\gui\..\ui;E:\QGIS\Depends\Sqlite3;E:\QGIS\Depends\geos\include;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="sqlite3_i.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\core\Debug\qgis_core.lib D:\Qt\qt-win-opensource-src-453\lib\QtUiToolsd.lib wsock32.lib D:\Qt\qt-win-opensource-src-453\lib\qtmaind.lib D:\Qt\qt-win-opensource-src-453\lib\QtXmld4.lib D:\Qt\qt-win-opensource-src-453\lib\QtCored4.lib D:\Qt\qt-win-opensource-src-453\lib\QtGuid4.lib D:\Qt\qt-win-opensource-src-453\lib\QtNetworkd4.lib D:\Qt\qt-win-opensource-src-453\lib\QtSvgd4.lib "
+				OutputFile="E:\QGIS\Build174\src\gui\Debug\qgis_gui.dll"
+				Version="1.7"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;..\core\$(OutDir)&quot;;..\core;&quot;.\$(OutDir)&quot;;.;E:\QGIS\Depends\gdal\lib"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\gui\Debug\qgis_gui.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\gui\Debug\qgis_gui.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="qgis_gui.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="D:\Qt\qt-win-opensource-src-453\include;D:\Qt\qt-win-opensource-src-453\include\QtSvg;D:\Qt\qt-win-opensource-src-453\include\QtWebKit;D:\Qt\qt-win-opensource-src-453\include\QtGui;D:\Qt\qt-win-opensource-src-453\include\QtXml;D:\Qt\qt-win-opensource-src-453\include\QtSql;D:\Qt\qt-win-opensource-src-453\include\QtNetwork;D:\Qt\qt-win-opensource-src-453\include\QtCore;E:\QGIS\Build174;D:\Qt\qt-win-opensource-src-453\include\QtUiTools;E:\QGIS\qgis-1.7.4\src\gui;E:\QGIS\qgis-1.7.4\src\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\gui\..\core;E:\QGIS\qgis-1.7.4\src\gui\..\core\composer;E:\QGIS\qgis-1.7.4\src\gui\..\core\raster;E:\QGIS\qgis-1.7.4\src\gui\..\core\renderer;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology-ng;E:\QGIS\Build174\src\gui;E:\QGIS\Build174\src\gui\..\ui;E:\QGIS\Depends\Sqlite3;E:\QGIS\Depends\geos\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllexport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;qgis_gui_EXPORTS"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\gui\Release/qgis_gui.pdb"
+				WarningLevel="4"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllexport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;qgis_gui_EXPORTS"
+				AdditionalIncludeDirectories="D:\Qt\qt-win-opensource-src-453\include;D:\Qt\qt-win-opensource-src-453\include\QtSvg;D:\Qt\qt-win-opensource-src-453\include\QtWebKit;D:\Qt\qt-win-opensource-src-453\include\QtGui;D:\Qt\qt-win-opensource-src-453\include\QtXml;D:\Qt\qt-win-opensource-src-453\include\QtSql;D:\Qt\qt-win-opensource-src-453\include\QtNetwork;D:\Qt\qt-win-opensource-src-453\include\QtCore;E:\QGIS\Build174;D:\Qt\qt-win-opensource-src-453\include\QtUiTools;E:\QGIS\qgis-1.7.4\src\gui;E:\QGIS\qgis-1.7.4\src\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\gui\..\core;E:\QGIS\qgis-1.7.4\src\gui\..\core\composer;E:\QGIS\qgis-1.7.4\src\gui\..\core\raster;E:\QGIS\qgis-1.7.4\src\gui\..\core\renderer;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology;E:\QGIS\qgis-1.7.4\src\gui\..\core\symbology-ng;E:\QGIS\Build174\src\gui;E:\QGIS\Build174\src\gui\..\ui;E:\QGIS\Depends\Sqlite3;E:\QGIS\Depends\geos\include;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="sqlite3_i.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\core\Release\qgis_core.lib D:\Qt\qt-win-opensource-src-453\lib\QtUiTools.lib wsock32.lib D:\Qt\qt-win-opensource-src-453\lib\qtmain.lib D:\Qt\qt-win-opensource-src-453\lib\QtXml4.lib D:\Qt\qt-win-opensource-src-453\lib\QtCore4.lib D:\Qt\qt-win-opensource-src-453\lib\QtGui4.lib D:\Qt\qt-win-opensource-src-453\lib\QtNetwork4.lib D:\Qt\qt-win-opensource-src-453\lib\QtSvg4.lib "
+				OutputFile="E:\QGIS\Build174\src\gui\Release\qgis_gui.dll"
+				Version="1.7"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;..\core\$(OutDir)&quot;;..\core;&quot;.\$(OutDir)&quot;;.;E:\QGIS\Depends\gdal\lib"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\gui\Release\qgis_gui.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\gui\Release\qgis_gui.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\characterwidget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_characterwidget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgisinterface.cxx"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						DisableSpecificWarnings="4996"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						DisableSpecificWarnings="4996"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsattributeeditor.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsbrushstylecombobox.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscategorizedsymbolrendererv2widget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscolorrampcombobox.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgscomposerview.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgscredentialdialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsdashspacedialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemdelegate.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemwidget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsencodingfiledialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsfieldvalidator.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsformannotationitem.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsgenericprojectionselector.cxx"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						DisableSpecificWarnings="4996"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						DisableSpecificWarnings="4996"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsgraduatedsymbolrendererv2widget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgslegendinterface.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgslonglongvalidator.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsludialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmapcanvas.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmapoverviewcanvas.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmaptoolemitpoint.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmessageviewer.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgspenstylecombobox.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsprojectbadlayerguihandler.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsprojectionselector.cxx"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						DisableSpecificWarnings="4996"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						DisableSpecificWarnings="4996"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsquickprint.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2propertiesdialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2widget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrulebasedrendererv2widget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgssearchquerybuilder.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssinglesymbolrendererv2widget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2exportimportdialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2managerdialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollayerv2widget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollevelsv2dialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2propertiesdialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2selectordialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorcolorbrewercolorrampv2dialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorgradientcolorrampv2dialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorrandomcolorrampv2dialog.cxx"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgisgui.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgisinterface.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsannotationitem.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsattributeeditor.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsbrushstylecombobox.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgscategorizedsymbolrendererv2widget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgscolorbutton.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgscolorrampcombobox.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgscomposerview.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgscredentialdialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgscursors.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsdashspacedialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsdetaileditemdata.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsdetaileditemdelegate.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsdetaileditemwidget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsencodingfiledialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsfieldvalidator.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsfiledropedit.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsformannotationitem.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsgenericprojectionselector.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsgraduatedsymbolrendererv2widget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgslegendinterface.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsludialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmapcanvas.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmapcanvasitem.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmapcanvasmap.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmapcanvassnapper.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmapoverviewcanvas.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmaptip.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmaptool.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmaptoolemitpoint.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmaptoolpan.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmaptoolzoom.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsmessageviewer.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgspenstylecombobox.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsprojectbadlayerguihandler.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsprojectionselector.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsquickprint.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrendererv2propertiesdialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrendererv2widget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsrubberband.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrulebasedrendererv2widget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgssearchquerybuilder.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssinglesymbolrendererv2widget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsstylev2exportimportdialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsstylev2managerdialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbollayerv2widget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbollevelsv2dialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbolv2propertiesdialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbolv2selectordialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgstextannotationitem.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorcolorbrewercolorrampv2dialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorgradientcolorrampv2dialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorrandomcolorrampv2dialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\gui\qgsvertexmarker.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_characterwidget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_characterwidget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_characterwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\characterwidget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_characterwidget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_characterwidget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_characterwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\characterwidget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_characterwidget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgisinterface.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgisinterface.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgisinterface.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgisinterface.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgisinterface.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgisinterface.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgisinterface.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgisinterface.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgisinterface.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsattributeeditor.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsattributeeditor.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsattributeeditor.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsattributeeditor.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsattributeeditor.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsattributeeditor.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsattributeeditor.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsattributeeditor.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsattributeeditor.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsbrushstylecombobox.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsbrushstylecombobox.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsbrushstylecombobox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsbrushstylecombobox.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsbrushstylecombobox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsbrushstylecombobox.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsbrushstylecombobox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsbrushstylecombobox.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsbrushstylecombobox.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscategorizedsymbolrendererv2widget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgscategorizedsymbolrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscategorizedsymbolrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgscategorizedsymbolrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscategorizedsymbolrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgscategorizedsymbolrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscategorizedsymbolrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgscategorizedsymbolrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscategorizedsymbolrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscolorrampcombobox.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgscolorrampcombobox.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscolorrampcombobox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgscolorrampcombobox.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscolorrampcombobox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgscolorrampcombobox.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscolorrampcombobox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgscolorrampcombobox.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgscolorrampcombobox.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgscomposerview.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgscomposerview.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscomposerview.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgscomposerview.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgscomposerview.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgscomposerview.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscomposerview.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgscomposerview.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgscomposerview.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgscredentialdialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgscredentialdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscredentialdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgscredentialdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgscredentialdialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgscredentialdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgscredentialdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgscredentialdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgscredentialdialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsdashspacedialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsdashspacedialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsdashspacedialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsdashspacedialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsdashspacedialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsdashspacedialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsdashspacedialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsdashspacedialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsdashspacedialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemdelegate.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsdetaileditemdelegate.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsdetaileditemdelegate.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsdetaileditemdelegate.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemdelegate.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsdetaileditemdelegate.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsdetaileditemdelegate.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsdetaileditemdelegate.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemdelegate.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemwidget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsdetaileditemwidget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsdetaileditemwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsdetaileditemwidget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemwidget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsdetaileditemwidget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsdetaileditemwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsdetaileditemwidget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsdetaileditemwidget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsencodingfiledialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsencodingfiledialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsencodingfiledialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsencodingfiledialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsencodingfiledialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsencodingfiledialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsencodingfiledialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsencodingfiledialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsencodingfiledialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsfieldvalidator.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsfieldvalidator.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsfieldvalidator.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsfieldvalidator.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsfieldvalidator.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsfieldvalidator.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsfieldvalidator.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsfieldvalidator.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsfieldvalidator.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsformannotationitem.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsformannotationitem.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsformannotationitem.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsformannotationitem.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsformannotationitem.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsformannotationitem.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsformannotationitem.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsformannotationitem.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsformannotationitem.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsgenericprojectionselector.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsgenericprojectionselector.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsgenericprojectionselector.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsgenericprojectionselector.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsgenericprojectionselector.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsgenericprojectionselector.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsgenericprojectionselector.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsgenericprojectionselector.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsgenericprojectionselector.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsgraduatedsymbolrendererv2widget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsgraduatedsymbolrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsgraduatedsymbolrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsgraduatedsymbolrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsgraduatedsymbolrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsgraduatedsymbolrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsgraduatedsymbolrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsgraduatedsymbolrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsgraduatedsymbolrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgslegendinterface.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgslegendinterface.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgslegendinterface.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgslegendinterface.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgslegendinterface.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgslegendinterface.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgslegendinterface.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgslegendinterface.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgslegendinterface.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgslonglongvalidator.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgslonglongvalidator.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgslonglongvalidator.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgslonglongvalidator.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgslonglongvalidator.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgslonglongvalidator.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgslonglongvalidator.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgslonglongvalidator.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgslonglongvalidator.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsludialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsludialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsludialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsludialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsludialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsludialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsludialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsludialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsludialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmapcanvas.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmapcanvas.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmapcanvas.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmapcanvas.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmapcanvas.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmapcanvas.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmapcanvas.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmapcanvas.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmapcanvas.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmapoverviewcanvas.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmapoverviewcanvas.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmapoverviewcanvas.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmapoverviewcanvas.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmapoverviewcanvas.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmapoverviewcanvas.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmapoverviewcanvas.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmapoverviewcanvas.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmapoverviewcanvas.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmaptoolemitpoint.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmaptoolemitpoint.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmaptoolemitpoint.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmaptoolemitpoint.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmaptoolemitpoint.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmaptoolemitpoint.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmaptoolemitpoint.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmaptoolemitpoint.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmaptoolemitpoint.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsmessageviewer.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmessageviewer.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmessageviewer.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmessageviewer.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmessageviewer.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsmessageviewer.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsmessageviewer.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsmessageviewer.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsmessageviewer.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgspenstylecombobox.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgspenstylecombobox.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgspenstylecombobox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgspenstylecombobox.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgspenstylecombobox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgspenstylecombobox.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgspenstylecombobox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgspenstylecombobox.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgspenstylecombobox.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsprojectbadlayerguihandler.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsprojectbadlayerguihandler.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsprojectbadlayerguihandler.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsprojectbadlayerguihandler.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsprojectbadlayerguihandler.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsprojectbadlayerguihandler.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsprojectbadlayerguihandler.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsprojectbadlayerguihandler.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsprojectbadlayerguihandler.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsprojectionselector.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsprojectionselector.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsprojectionselector.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsprojectionselector.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsprojectionselector.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsprojectionselector.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsprojectionselector.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsprojectionselector.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsprojectionselector.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgsquickprint.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsquickprint.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsquickprint.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsquickprint.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsquickprint.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgsquickprint.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsquickprint.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgsquickprint.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgsquickprint.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2propertiesdialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsrendererv2propertiesdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsrendererv2propertiesdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrendererv2propertiesdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2propertiesdialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsrendererv2propertiesdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsrendererv2propertiesdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrendererv2propertiesdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2propertiesdialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2widget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrulebasedrendererv2widget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsrulebasedrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsrulebasedrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrulebasedrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrulebasedrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsrulebasedrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsrulebasedrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsrulebasedrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsrulebasedrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\moc_qgssearchquerybuilder.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgssearchquerybuilder.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssearchquerybuilder.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgssearchquerybuilder.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgssearchquerybuilder.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating moc_qgssearchquerybuilder.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssearchquerybuilder.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\qgssearchquerybuilder.h;"
+						Outputs="E:\QGIS\Build174\src\gui\moc_qgssearchquerybuilder.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssinglesymbolrendererv2widget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssinglesymbolrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssinglesymbolrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssinglesymbolrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssinglesymbolrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssinglesymbolrendererv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssinglesymbolrendererv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssinglesymbolrendererv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssinglesymbolrendererv2widget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2exportimportdialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsstylev2exportimportdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsstylev2exportimportdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsstylev2exportimportdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2exportimportdialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsstylev2exportimportdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsstylev2exportimportdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsstylev2exportimportdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2exportimportdialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2managerdialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsstylev2managerdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsstylev2managerdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsstylev2managerdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2managerdialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsstylev2managerdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsstylev2managerdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsstylev2managerdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsstylev2managerdialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollayerv2widget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbollayerv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbollayerv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbollayerv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollayerv2widget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbollayerv2widget.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbollayerv2widget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbollayerv2widget.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollayerv2widget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollevelsv2dialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbollevelsv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbollevelsv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbollevelsv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollevelsv2dialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbollevelsv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbollevelsv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbollevelsv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbollevelsv2dialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2propertiesdialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbolv2propertiesdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbolv2propertiesdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbolv2propertiesdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2propertiesdialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbolv2propertiesdialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbolv2propertiesdialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbolv2propertiesdialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2propertiesdialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2selectordialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbolv2selectordialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbolv2selectordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbolv2selectordialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2selectordialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgssymbolv2selectordialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgssymbolv2selectordialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgssymbolv2selectordialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgssymbolv2selectordialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorcolorbrewercolorrampv2dialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsvectorcolorbrewercolorrampv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsvectorcolorbrewercolorrampv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorcolorbrewercolorrampv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorcolorbrewercolorrampv2dialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsvectorcolorbrewercolorrampv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsvectorcolorbrewercolorrampv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorcolorbrewercolorrampv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorcolorbrewercolorrampv2dialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorgradientcolorrampv2dialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsvectorgradientcolorrampv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsvectorgradientcolorrampv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorgradientcolorrampv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorgradientcolorrampv2dialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsvectorgradientcolorrampv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsvectorgradientcolorrampv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorgradientcolorrampv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorgradientcolorrampv2dialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorrandomcolorrampv2dialog.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsvectorrandomcolorrampv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsvectorrandomcolorrampv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorrandomcolorrampv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorrandomcolorrampv2dialog.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating symbology-ng/moc_qgsvectorrandomcolorrampv2dialog.cxx"
+						CommandLine="cd E:\QGIS\Build174\src\gui\symbology-ng&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Qt\qt-win-opensource-src-453\bin\moc.exe @moc_qgsvectorrandomcolorrampv2dialog.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\symbology-ng\qgsvectorrandomcolorrampv2dialog.h;"
+						Outputs="E:\QGIS\Build174\src\gui\symbology-ng\moc_qgsvectorrandomcolorrampv2dialog.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="E:\QGIS\qgis-1.7.4\src\gui\CMakeLists.txt"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/gui/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\gui\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\gui\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\gui\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/gui/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\gui\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\gui\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\gui\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\gui\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

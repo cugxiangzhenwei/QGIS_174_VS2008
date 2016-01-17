@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="northarrowplugin"
+	ProjectGUID="{EC8BF5C8-C516-4055-8292-B0E835006B57}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="northarrowplugin.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;northarrowplugin_EXPORTS"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\north_arrow\Debug/northarrowplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;northarrowplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Debug\qgis_core.lib ..\..\gui\Debug\qgis_gui.lib ..\..\core\Debug\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmaind.lib C:\Qt\4.8.1\lib\QtXmld4.lib C:\Qt\4.8.1\lib\QtCored4.lib C:\Qt\4.8.1\lib\QtGuid4.lib C:\Qt\4.8.1\lib\QtNetworkd4.lib C:\Qt\4.8.1\lib\QtSvgd4.lib C:\Qt\4.8.1\lib\QtUiToolsd.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\north_arrow\Debug\northarrowplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\north_arrow\Debug\northarrowplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\north_arrow\Debug\northarrowplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="northarrowplugin.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;northarrowplugin_EXPORTS"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\north_arrow\Release/northarrowplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;northarrowplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Release\qgis_core.lib ..\..\gui\Release\qgis_gui.lib ..\..\core\Release\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\north_arrow\Release\northarrowplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\north_arrow\Release\northarrowplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\north_arrow\Release\northarrowplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="northarrowplugin.dir\MinSizeRel"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;northarrowplugin_EXPORTS"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\north_arrow\MinSizeRel/northarrowplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;northarrowplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\MinSizeRel\qgis_core.lib ..\..\gui\MinSizeRel\qgis_gui.lib ..\..\core\MinSizeRel\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\north_arrow\MinSizeRel\northarrowplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\north_arrow\MinSizeRel\northarrowplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\north_arrow\MinSizeRel\northarrowplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="northarrowplugin.dir\RelWithDebInfo"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;northarrowplugin_EXPORTS"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\north_arrow\RelWithDebInfo/northarrowplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\north_arrow;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\raster;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\renderer;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\core\symbology;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;northarrowplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\RelWithDebInfo\qgis_core.lib ..\..\gui\RelWithDebInfo\qgis_gui.lib ..\..\core\RelWithDebInfo\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\north_arrow\RelWithDebInfo\northarrowplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\north_arrow\RelWithDebInfo\northarrowplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\north_arrow\RelWithDebInfo\northarrowplugin.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_northarrow_plugin.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name northarrow_plugin -o E:/QGIS/Build174/src/plugins/north_arrow/qrc_northarrow_plugin.cxx E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/northarrow_plugin.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\north_arrow.png;E:\QGIS\Build174\src\plugins\north_arrow\northarrow_plugin.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\qrc_northarrow_plugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_northarrow_plugin.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name northarrow_plugin -o E:/QGIS/Build174/src/plugins/north_arrow/qrc_northarrow_plugin.cxx E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/northarrow_plugin.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\north_arrow.png;E:\QGIS\Build174\src\plugins\north_arrow\northarrow_plugin.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\qrc_northarrow_plugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_northarrow_plugin.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name northarrow_plugin -o E:/QGIS/Build174/src/plugins/north_arrow/qrc_northarrow_plugin.cxx E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/northarrow_plugin.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\north_arrow.png;E:\QGIS\Build174\src\plugins\north_arrow\northarrow_plugin.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\qrc_northarrow_plugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_northarrow_plugin.cxx"
+					CommandLine="C:\Qt\4.8.1\bin\rcc.exe -name northarrow_plugin -o E:/QGIS/Build174/src/plugins/north_arrow/qrc_northarrow_plugin.cxx E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/northarrow_plugin.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\north_arrow.png;E:\QGIS\Build174\src\plugins\north_arrow\northarrow_plugin.qrc.depends;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\qrc_northarrow_plugin.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\pluginguibase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_pluginguibase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/north_arrow/ui_pluginguibase.h E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/pluginguibase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\pluginguibase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\ui_pluginguibase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_pluginguibase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/north_arrow/ui_pluginguibase.h E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/pluginguibase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\pluginguibase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\ui_pluginguibase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_pluginguibase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/north_arrow/ui_pluginguibase.h E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/pluginguibase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\pluginguibase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\ui_pluginguibase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_pluginguibase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/north_arrow/ui_pluginguibase.h E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/pluginguibase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\pluginguibase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\ui_pluginguibase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/north_arrow/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\northarrow_plugin.qrc;E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugin.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugingui.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugin.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugingui.cxx">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\north_arrow\qrc_northarrow_plugin.cxx">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\north_arrow\ui_pluginguibase.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugin.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugin.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugin.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugin.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugin.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugin.cxx"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugingui.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugingui.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugingui.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugingui.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugingui.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugingui.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugingui.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugingui.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugingui.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugingui.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugingui.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugingui.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugingui.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_plugingui.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\north_arrow&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_plugingui.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\north_arrow\plugingui.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\north_arrow\moc_plugingui.cxx"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

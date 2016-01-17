@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+E:/QGIS/qgis-1.7.4/CMakeLists.txt
+E:/QGIS/Build174/CMakeFiles/CMakeSystem.cmake
+E:/QGIS/Build174/CMakeFiles/CMakeCCompiler.cmake
+E:/QGIS/Build174/CMakeFiles/CMakeCXXCompiler.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+E:/QGIS/Build174/CMakeFiles/CMakeCPlatform.cmake
+E:/QGIS/Build174/CMakeFiles/CMakeCXXPlatform.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+E:/QGIS/Build174/CMakeFiles/CMakeRCCompiler.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+E:/QGIS/Build174/CMakeFiles/CMakeCPlatform.cmake
+E:/QGIS/Build174/CMakeFiles/CMakeCXXPlatform.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+E:/QGIS/qgis-1.7.4/cmake/Flex.cmake
+E:/QGIS/qgis-1.7.4/cmake/Bison.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindProj.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindExpat.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindGSL.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindGEOS.cmake
+E:/QGIS/qgis-1.7.4/cmake/MacPlistMacros.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindGDAL.cmake
+E:/QGIS/qgis-1.7.4/cmake/MacPlistMacros.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindQwt.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindQwtPolar.cmake
+E:/QGIS/qgis-1.7.4/cmake/FindSqlite3.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/FindQt4.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/MacroAddFileDependencies.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Qt4ConfigDependentSettings.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/Qt4Macros.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/UseQt4.cmake
+E:/QGIS/qgis-1.7.4/cmake_templates/qgsconfig.h.in
+E:/QGIS/qgis-1.7.4/cmake_templates/cmake_uninstall.cmake.in
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/InstallRequiredSystemLibraries.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CPack.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Modules/CPackComponent.cmake
+E:/QGIS/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in
+E:/QGIS/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in

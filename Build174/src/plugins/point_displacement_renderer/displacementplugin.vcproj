@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="displacementplugin"
+	ProjectGUID="{A599B10E-3156-4655-BBB6-6F86B788FBEA}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="displacementplugin.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;displacementplugin_EXPORTS"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Debug/displacementplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;;displacementplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Debug\qgis_core.lib ..\..\gui\Debug\qgis_gui.lib ..\..\core\Debug\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmaind.lib C:\Qt\4.8.1\lib\QtXmld4.lib C:\Qt\4.8.1\lib\QtCored4.lib C:\Qt\4.8.1\lib\QtGuid4.lib C:\Qt\4.8.1\lib\QtNetworkd4.lib C:\Qt\4.8.1\lib\QtSvgd4.lib C:\Qt\4.8.1\lib\QtUiToolsd.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Debug\displacementplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Debug\displacementplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Debug\displacementplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="displacementplugin.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;displacementplugin_EXPORTS"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Release/displacementplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;;displacementplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\Release\qgis_core.lib ..\..\gui\Release\qgis_gui.lib ..\..\core\Release\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Release\displacementplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Release\displacementplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\point_displacement_renderer\Release\displacementplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="displacementplugin.dir\MinSizeRel"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				CompileAs="2"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;displacementplugin_EXPORTS"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\point_displacement_renderer\MinSizeRel/displacementplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;displacementplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\MinSizeRel\qgis_core.lib ..\..\gui\MinSizeRel\qgis_gui.lib ..\..\core\MinSizeRel\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\MinSizeRel\displacementplugin.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\MinSizeRel\displacementplugin.pdb"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\point_displacement_renderer\MinSizeRel\displacementplugin.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="displacementplugin.dir\RelWithDebInfo"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="4"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;displacementplugin_EXPORTS"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:\QGIS\Build174\src\plugins\point_displacement_renderer\RelWithDebInfo/displacementplugin.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;E:\QGIS\Build174\src\plugins\point_displacement_renderer;E:\QGIS\Build174\src\plugins\point_displacement_renderer\..\..\ui;E:\QGIS\Depends\geos\include;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\core\spatialindex;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..\..\gui\symbology-ng;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\..;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;displacementplugin_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  ..\..\core\RelWithDebInfo\qgis_core.lib ..\..\gui\RelWithDebInfo\qgis_gui.lib ..\..\core\RelWithDebInfo\qgis_core.lib wsock32.lib C:\Qt\4.8.1\lib\qtmain.lib C:\Qt\4.8.1\lib\QtXml4.lib C:\Qt\4.8.1\lib\QtCore4.lib C:\Qt\4.8.1\lib\QtGui4.lib C:\Qt\4.8.1\lib\QtNetwork4.lib C:\Qt\4.8.1\lib\QtSvg4.lib C:\Qt\4.8.1\lib\QtUiTools.lib "
+				OutputFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\RelWithDebInfo\displacementplugin.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\core\$(OutDir),..\..\core,..\..\gui\$(OutDir),..\..\gui"
+				ProgramDatabaseFile="E:\QGIS\Build174\src\plugins\point_displacement_renderer\RelWithDebInfo\displacementplugin.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\QGIS\Build174\src\plugins\point_displacement_renderer\RelWithDebInfo\displacementplugin.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidgetbase.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgspointdisplacementrendererwidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/point_displacement_renderer/ui_qgspointdisplacementrendererwidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/qgspointdisplacementrendererwidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\ui_qgspointdisplacementrendererwidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgspointdisplacementrendererwidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/point_displacement_renderer/ui_qgspointdisplacementrendererwidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/qgspointdisplacementrendererwidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\ui_qgspointdisplacementrendererwidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgspointdisplacementrendererwidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/point_displacement_renderer/ui_qgspointdisplacementrendererwidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/qgspointdisplacementrendererwidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\ui_qgspointdisplacementrendererwidgetbase.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating ui_qgspointdisplacementrendererwidgetbase.h"
+					CommandLine="C:\Qt\4.8.1\bin\uic.exe -o E:/QGIS/Build174/src/plugins/point_displacement_renderer/ui_qgspointdisplacementrendererwidgetbase.h E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/qgspointdisplacementrendererwidgetbase.ui&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidgetbase.ui;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\ui_qgspointdisplacementrendererwidgetbase.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/src/plugins/point_displacement_renderer/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgsdisplacementplugin.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrenderer.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidget.cpp">
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\point_displacement_renderer\moc_qgspointdisplacementrendererwidget.cxx">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\point_displacement_renderer\ui_qgspointdisplacementrendererwidgetbase.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\src\plugins\point_displacement_renderer\moc_qgspointdisplacementrendererwidget.cxx.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgspointdisplacementrendererwidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\point_displacement_renderer&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgspointdisplacementrendererwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\moc_qgspointdisplacementrendererwidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgspointdisplacementrendererwidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\point_displacement_renderer&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgspointdisplacementrendererwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\moc_qgspointdisplacementrendererwidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgspointdisplacementrendererwidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\point_displacement_renderer&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgspointdisplacementrendererwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\moc_qgspointdisplacementrendererwidget.cxx"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating moc_qgspointdisplacementrendererwidget.cxx"
+					CommandLine="cd E:\QGIS\Build174\src\plugins\point_displacement_renderer&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;E:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:\Qt\4.8.1\bin\moc.exe @moc_qgspointdisplacementrendererwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\src\plugins\point_displacement_renderer\qgspointdisplacementrendererwidget.h;"
+					Outputs="E:\QGIS\Build174\src\plugins\point_displacement_renderer\moc_qgspointdisplacementrendererwidget.cxx"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

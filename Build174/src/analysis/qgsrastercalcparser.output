@@ -1,0 +1,848 @@
+Grammar
+
+    0 $accept: root $end
+
+    1 root: raster_exp
+
+    2 raster_exp: FUNCTION '(' raster_exp ')'
+    3           | raster_exp AND raster_exp
+    4           | raster_exp OR raster_exp
+    5           | raster_exp '=' raster_exp
+    6           | raster_exp NE raster_exp
+    7           | raster_exp '>' raster_exp
+    8           | raster_exp '<' raster_exp
+    9           | raster_exp GE raster_exp
+   10           | raster_exp LE raster_exp
+   11           | raster_exp '^' raster_exp
+   12           | raster_exp '*' raster_exp
+   13           | raster_exp '/' raster_exp
+   14           | raster_exp '+' raster_exp
+   15           | raster_exp '-' raster_exp
+   16           | '(' raster_exp ')'
+   17           | '+' raster_exp
+   18           | '-' raster_exp
+   19           | NUMBER
+   20           | RASTER_BAND_REF
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'(' (40) 2 16
+')' (41) 2 16
+'*' (42) 12
+'+' (43) 14 17
+'-' (45) 15 18
+'/' (47) 13
+'<' (60) 8
+'=' (61) 5
+'>' (62) 7
+'^' (94) 11
+error (256)
+RASTER_BAND_REF (258) 20
+NUMBER (259) 19
+FUNCTION (260) 2
+AND (261) 3
+OR (262) 4
+NE (263) 6
+GE (264) 9
+LE (265) 10
+UMINUS (266)
+
+
+Nonterminals, with rules where they appear
+
+$accept (22)
+    on left: 0
+root (23)
+    on left: 1, on right: 0
+raster_exp (24)
+    on left: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20, on right:
+    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+
+
+state 0
+
+    0 $accept: . root $end
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    root        go to state 7
+    raster_exp  go to state 8
+
+
+state 1
+
+   20 raster_exp: RASTER_BAND_REF .
+
+    $default  reduce using rule 20 (raster_exp)
+
+
+state 2
+
+   19 raster_exp: NUMBER .
+
+    $default  reduce using rule 19 (raster_exp)
+
+
+state 3
+
+    2 raster_exp: FUNCTION . '(' raster_exp ')'
+
+    '('  shift, and go to state 9
+
+
+state 4
+
+   17 raster_exp: '+' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 10
+
+
+state 5
+
+   18 raster_exp: '-' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 11
+
+
+state 6
+
+   16 raster_exp: '(' . raster_exp ')'
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 12
+
+
+state 7
+
+    0 $accept: root . $end
+
+    $end  shift, and go to state 13
+
+
+state 8
+
+    1 root: raster_exp .
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    AND  shift, and go to state 14
+    OR   shift, and go to state 15
+    NE   shift, and go to state 16
+    GE   shift, and go to state 17
+    LE   shift, and go to state 18
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 1 (root)
+
+
+state 9
+
+    2 raster_exp: FUNCTION '(' . raster_exp ')'
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 27
+
+
+state 10
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+   17           | '+' raster_exp .
+
+    $default  reduce using rule 17 (raster_exp)
+
+
+state 11
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+   18           | '-' raster_exp .
+
+    $default  reduce using rule 18 (raster_exp)
+
+
+state 12
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+   16           | '(' raster_exp . ')'
+
+    AND  shift, and go to state 14
+    OR   shift, and go to state 15
+    NE   shift, and go to state 16
+    GE   shift, and go to state 17
+    LE   shift, and go to state 18
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+    ')'  shift, and go to state 28
+
+
+state 13
+
+    0 $accept: root $end .
+
+    $default  accept
+
+
+state 14
+
+    3 raster_exp: raster_exp AND . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 29
+
+
+state 15
+
+    4 raster_exp: raster_exp OR . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 30
+
+
+state 16
+
+    6 raster_exp: raster_exp NE . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 31
+
+
+state 17
+
+    9 raster_exp: raster_exp GE . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 32
+
+
+state 18
+
+   10 raster_exp: raster_exp LE . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 33
+
+
+state 19
+
+    5 raster_exp: raster_exp '=' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 34
+
+
+state 20
+
+    8 raster_exp: raster_exp '<' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 35
+
+
+state 21
+
+    7 raster_exp: raster_exp '>' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 36
+
+
+state 22
+
+   14 raster_exp: raster_exp '+' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 37
+
+
+state 23
+
+   15 raster_exp: raster_exp '-' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 38
+
+
+state 24
+
+   12 raster_exp: raster_exp '*' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 39
+
+
+state 25
+
+   13 raster_exp: raster_exp '/' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 40
+
+
+state 26
+
+   11 raster_exp: raster_exp '^' . raster_exp
+
+    RASTER_BAND_REF  shift, and go to state 1
+    NUMBER           shift, and go to state 2
+    FUNCTION         shift, and go to state 3
+    '+'              shift, and go to state 4
+    '-'              shift, and go to state 5
+    '('              shift, and go to state 6
+
+    raster_exp  go to state 41
+
+
+state 27
+
+    2 raster_exp: FUNCTION '(' raster_exp . ')'
+    3           | raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    AND  shift, and go to state 14
+    OR   shift, and go to state 15
+    NE   shift, and go to state 16
+    GE   shift, and go to state 17
+    LE   shift, and go to state 18
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+    ')'  shift, and go to state 42
+
+
+state 28
+
+   16 raster_exp: '(' raster_exp ')' .
+
+    $default  reduce using rule 16 (raster_exp)
+
+
+state 29
+
+    3 raster_exp: raster_exp . AND raster_exp
+    3           | raster_exp AND raster_exp .
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    OR   shift, and go to state 15
+    NE   shift, and go to state 16
+    GE   shift, and go to state 17
+    LE   shift, and go to state 18
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 3 (raster_exp)
+
+
+state 30
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    4           | raster_exp OR raster_exp .
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    NE   shift, and go to state 16
+    GE   shift, and go to state 17
+    LE   shift, and go to state 18
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 4 (raster_exp)
+
+
+state 31
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    6           | raster_exp NE raster_exp .
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    GE   shift, and go to state 17
+    LE   shift, and go to state 18
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 6 (raster_exp)
+
+
+state 32
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+    9           | raster_exp GE raster_exp .
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    LE   shift, and go to state 18
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 9 (raster_exp)
+
+
+state 33
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   10           | raster_exp LE raster_exp .
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    '='  shift, and go to state 19
+    '<'  shift, and go to state 20
+    '>'  shift, and go to state 21
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 10 (raster_exp)
+
+
+state 34
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    5           | raster_exp '=' raster_exp .
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 5 (raster_exp)
+
+
+state 35
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    8           | raster_exp '<' raster_exp .
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 8 (raster_exp)
+
+
+state 36
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    7           | raster_exp '>' raster_exp .
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    '+'  shift, and go to state 22
+    '-'  shift, and go to state 23
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 7 (raster_exp)
+
+
+state 37
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   14           | raster_exp '+' raster_exp .
+   15           | raster_exp . '-' raster_exp
+
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 14 (raster_exp)
+
+
+state 38
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+   15           | raster_exp '-' raster_exp .
+
+    '*'  shift, and go to state 24
+    '/'  shift, and go to state 25
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 15 (raster_exp)
+
+
+state 39
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   12           | raster_exp '*' raster_exp .
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 12 (raster_exp)
+
+
+state 40
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   13           | raster_exp '/' raster_exp .
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    '^'  shift, and go to state 26
+
+    $default  reduce using rule 13 (raster_exp)
+
+
+state 41
+
+    3 raster_exp: raster_exp . AND raster_exp
+    4           | raster_exp . OR raster_exp
+    5           | raster_exp . '=' raster_exp
+    6           | raster_exp . NE raster_exp
+    7           | raster_exp . '>' raster_exp
+    8           | raster_exp . '<' raster_exp
+    9           | raster_exp . GE raster_exp
+   10           | raster_exp . LE raster_exp
+   11           | raster_exp . '^' raster_exp
+   11           | raster_exp '^' raster_exp .
+   12           | raster_exp . '*' raster_exp
+   13           | raster_exp . '/' raster_exp
+   14           | raster_exp . '+' raster_exp
+   15           | raster_exp . '-' raster_exp
+
+    $default  reduce using rule 11 (raster_exp)
+
+
+state 42
+
+    2 raster_exp: FUNCTION '(' raster_exp ')' .
+
+    $default  reduce using rule 2 (raster_exp)

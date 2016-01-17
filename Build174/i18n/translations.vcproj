@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="translations"
+	ProjectGUID="{23A0FC68-D575-4E10-B00E-6907811B3C93}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="translations.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="0"
+				WarningLevel="4"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="translations.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="0"
+				WarningLevel="4"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="translations.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="0"
+				WarningLevel="4"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="translations.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				DisableSpecificWarnings="4100;4127;4510;4512;4610;4706"
+				ExceptionHandling="0"
+				WarningLevel="4"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\Qt\4.8.1\include;C:\Qt\4.8.1\include\QtSvg;C:\Qt\4.8.1\include\QtWebKit;C:\Qt\4.8.1\include\QtGui;C:\Qt\4.8.1\include\QtXml;C:\Qt\4.8.1\include\QtSql;C:\Qt\4.8.1\include\QtNetwork;C:\Qt\4.8.1\include\QtCore;E:\QGIS\Build174;"
+				PreprocessorDefinitions="CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_DLL;QT_SVG_LIB;QT_WEBKIT_LIB;QT_GUI_LIB;QT_XML_LIB;QT_SQL_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\CMakeFiles\translations">
+			</File>
+			<File
+				RelativePath="E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/i18n/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/i18n/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/i18n/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/QGIS/qgis-1.7.4/i18n/CMakeLists.txt"
+					CommandLine="&quot;E:\QGIS\CMake 2.8\bin\cmake.exe&quot; -HE:/QGIS/qgis-1.7.4 -BE:/QGIS/Build174 --check-stamp-file E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;E:\QGIS\qgis-1.7.4\i18n\CMakeLists.txt;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\CMakeFiles\translations.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\QGIS\Build174\i18n\qgis_af.qm;E:\QGIS\Build174\i18n\qgis_ar.qm;E:\QGIS\Build174\i18n\qgis_bg.qm;E:\QGIS\Build174\i18n\qgis_ca_ES.qm;E:\QGIS\Build174\i18n\qgis_cs_CZ.qm;E:\QGIS\Build174\i18n\qgis_de.qm;E:\QGIS\Build174\i18n\qgis_el_GR.qm;E:\QGIS\Build174\i18n\qgis_es.qm;E:\QGIS\Build174\i18n\qgis_et.qm;E:\QGIS\Build174\i18n\qgis_fa.qm;E:\QGIS\Build174\i18n\qgis_fi.qm;E:\QGIS\Build174\i18n\qgis_fr.qm;E:\QGIS\Build174\i18n\qgis_gl_ES.qm;E:\QGIS\Build174\i18n\qgis_he.qm;E:\QGIS\Build174\i18n\qgis_hr_HR.qm;E:\QGIS\Build174\i18n\qgis_hu.qm;E:\QGIS\Build174\i18n\qgis_id.qm;E:\QGIS\Build174\i18n\qgis_is.qm;E:\QGIS\Build174\i18n\qgis_it.qm;E:\QGIS\Build174\i18n\qgis_ja.qm;E:\QGIS\Build174\i18n\qgis_ka_GE.qm;E:\QGIS\Build174\i18n\qgis_ko_KR.qm;E:\QGIS\Build174\i18n\qgis_lo.qm;E:\QGIS\Build174\i18n\qgis_lt.qm;E:\QGIS\Build174\i18n\qgis_lv.qm;E:\QGIS\Build174\i18n\qgis_mn.qm;E:\QGIS\Build174\i18n\qgis_nl.qm;E:\QGIS\Build174\i18n\qgis_pl_PL.qm;E:\QGIS\Build174\i18n\qgis_pt_BR.qm;E:\QGIS\Build174\i18n\qgis_pt_PT.qm;E:\QGIS\Build174\i18n\qgis_ro.qm;E:\QGIS\Build174\i18n\qgis_ru.qm;E:\QGIS\Build174\i18n\qgis_sk.qm;E:\QGIS\Build174\i18n\qgis_sl_SI.qm;E:\QGIS\Build174\i18n\qgis_sq_AL.qm;E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm;E:\QGIS\Build174\i18n\qgis_sv.qm;E:\QGIS\Build174\i18n\qgis_ta.qm;E:\QGIS\Build174\i18n\qgis_th.qm;E:\QGIS\Build174\i18n\qgis_tr.qm;E:\QGIS\Build174\i18n\qgis_uk.qm;E:\QGIS\Build174\i18n\qgis_vi.qm;E:\QGIS\Build174\i18n\qgis_xh.qm;E:\QGIS\Build174\i18n\qgis_zh_CN.qm;E:\QGIS\Build174\i18n\qgis_zh_TW.qm;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\translations"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\QGIS\Build174\i18n\qgis_af.qm;E:\QGIS\Build174\i18n\qgis_ar.qm;E:\QGIS\Build174\i18n\qgis_bg.qm;E:\QGIS\Build174\i18n\qgis_ca_ES.qm;E:\QGIS\Build174\i18n\qgis_cs_CZ.qm;E:\QGIS\Build174\i18n\qgis_de.qm;E:\QGIS\Build174\i18n\qgis_el_GR.qm;E:\QGIS\Build174\i18n\qgis_es.qm;E:\QGIS\Build174\i18n\qgis_et.qm;E:\QGIS\Build174\i18n\qgis_fa.qm;E:\QGIS\Build174\i18n\qgis_fi.qm;E:\QGIS\Build174\i18n\qgis_fr.qm;E:\QGIS\Build174\i18n\qgis_gl_ES.qm;E:\QGIS\Build174\i18n\qgis_he.qm;E:\QGIS\Build174\i18n\qgis_hr_HR.qm;E:\QGIS\Build174\i18n\qgis_hu.qm;E:\QGIS\Build174\i18n\qgis_id.qm;E:\QGIS\Build174\i18n\qgis_is.qm;E:\QGIS\Build174\i18n\qgis_it.qm;E:\QGIS\Build174\i18n\qgis_ja.qm;E:\QGIS\Build174\i18n\qgis_ka_GE.qm;E:\QGIS\Build174\i18n\qgis_ko_KR.qm;E:\QGIS\Build174\i18n\qgis_lo.qm;E:\QGIS\Build174\i18n\qgis_lt.qm;E:\QGIS\Build174\i18n\qgis_lv.qm;E:\QGIS\Build174\i18n\qgis_mn.qm;E:\QGIS\Build174\i18n\qgis_nl.qm;E:\QGIS\Build174\i18n\qgis_pl_PL.qm;E:\QGIS\Build174\i18n\qgis_pt_BR.qm;E:\QGIS\Build174\i18n\qgis_pt_PT.qm;E:\QGIS\Build174\i18n\qgis_ro.qm;E:\QGIS\Build174\i18n\qgis_ru.qm;E:\QGIS\Build174\i18n\qgis_sk.qm;E:\QGIS\Build174\i18n\qgis_sl_SI.qm;E:\QGIS\Build174\i18n\qgis_sq_AL.qm;E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm;E:\QGIS\Build174\i18n\qgis_sv.qm;E:\QGIS\Build174\i18n\qgis_ta.qm;E:\QGIS\Build174\i18n\qgis_th.qm;E:\QGIS\Build174\i18n\qgis_tr.qm;E:\QGIS\Build174\i18n\qgis_uk.qm;E:\QGIS\Build174\i18n\qgis_vi.qm;E:\QGIS\Build174\i18n\qgis_xh.qm;E:\QGIS\Build174\i18n\qgis_zh_CN.qm;E:\QGIS\Build174\i18n\qgis_zh_TW.qm;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\translations"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\QGIS\Build174\i18n\qgis_af.qm;E:\QGIS\Build174\i18n\qgis_ar.qm;E:\QGIS\Build174\i18n\qgis_bg.qm;E:\QGIS\Build174\i18n\qgis_ca_ES.qm;E:\QGIS\Build174\i18n\qgis_cs_CZ.qm;E:\QGIS\Build174\i18n\qgis_de.qm;E:\QGIS\Build174\i18n\qgis_el_GR.qm;E:\QGIS\Build174\i18n\qgis_es.qm;E:\QGIS\Build174\i18n\qgis_et.qm;E:\QGIS\Build174\i18n\qgis_fa.qm;E:\QGIS\Build174\i18n\qgis_fi.qm;E:\QGIS\Build174\i18n\qgis_fr.qm;E:\QGIS\Build174\i18n\qgis_gl_ES.qm;E:\QGIS\Build174\i18n\qgis_he.qm;E:\QGIS\Build174\i18n\qgis_hr_HR.qm;E:\QGIS\Build174\i18n\qgis_hu.qm;E:\QGIS\Build174\i18n\qgis_id.qm;E:\QGIS\Build174\i18n\qgis_is.qm;E:\QGIS\Build174\i18n\qgis_it.qm;E:\QGIS\Build174\i18n\qgis_ja.qm;E:\QGIS\Build174\i18n\qgis_ka_GE.qm;E:\QGIS\Build174\i18n\qgis_ko_KR.qm;E:\QGIS\Build174\i18n\qgis_lo.qm;E:\QGIS\Build174\i18n\qgis_lt.qm;E:\QGIS\Build174\i18n\qgis_lv.qm;E:\QGIS\Build174\i18n\qgis_mn.qm;E:\QGIS\Build174\i18n\qgis_nl.qm;E:\QGIS\Build174\i18n\qgis_pl_PL.qm;E:\QGIS\Build174\i18n\qgis_pt_BR.qm;E:\QGIS\Build174\i18n\qgis_pt_PT.qm;E:\QGIS\Build174\i18n\qgis_ro.qm;E:\QGIS\Build174\i18n\qgis_ru.qm;E:\QGIS\Build174\i18n\qgis_sk.qm;E:\QGIS\Build174\i18n\qgis_sl_SI.qm;E:\QGIS\Build174\i18n\qgis_sq_AL.qm;E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm;E:\QGIS\Build174\i18n\qgis_sv.qm;E:\QGIS\Build174\i18n\qgis_ta.qm;E:\QGIS\Build174\i18n\qgis_th.qm;E:\QGIS\Build174\i18n\qgis_tr.qm;E:\QGIS\Build174\i18n\qgis_uk.qm;E:\QGIS\Build174\i18n\qgis_vi.qm;E:\QGIS\Build174\i18n\qgis_xh.qm;E:\QGIS\Build174\i18n\qgis_zh_CN.qm;E:\QGIS\Build174\i18n\qgis_zh_TW.qm;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\translations"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="E:\QGIS\Build174\i18n\qgis_af.qm;E:\QGIS\Build174\i18n\qgis_ar.qm;E:\QGIS\Build174\i18n\qgis_bg.qm;E:\QGIS\Build174\i18n\qgis_ca_ES.qm;E:\QGIS\Build174\i18n\qgis_cs_CZ.qm;E:\QGIS\Build174\i18n\qgis_de.qm;E:\QGIS\Build174\i18n\qgis_el_GR.qm;E:\QGIS\Build174\i18n\qgis_es.qm;E:\QGIS\Build174\i18n\qgis_et.qm;E:\QGIS\Build174\i18n\qgis_fa.qm;E:\QGIS\Build174\i18n\qgis_fi.qm;E:\QGIS\Build174\i18n\qgis_fr.qm;E:\QGIS\Build174\i18n\qgis_gl_ES.qm;E:\QGIS\Build174\i18n\qgis_he.qm;E:\QGIS\Build174\i18n\qgis_hr_HR.qm;E:\QGIS\Build174\i18n\qgis_hu.qm;E:\QGIS\Build174\i18n\qgis_id.qm;E:\QGIS\Build174\i18n\qgis_is.qm;E:\QGIS\Build174\i18n\qgis_it.qm;E:\QGIS\Build174\i18n\qgis_ja.qm;E:\QGIS\Build174\i18n\qgis_ka_GE.qm;E:\QGIS\Build174\i18n\qgis_ko_KR.qm;E:\QGIS\Build174\i18n\qgis_lo.qm;E:\QGIS\Build174\i18n\qgis_lt.qm;E:\QGIS\Build174\i18n\qgis_lv.qm;E:\QGIS\Build174\i18n\qgis_mn.qm;E:\QGIS\Build174\i18n\qgis_nl.qm;E:\QGIS\Build174\i18n\qgis_pl_PL.qm;E:\QGIS\Build174\i18n\qgis_pt_BR.qm;E:\QGIS\Build174\i18n\qgis_pt_PT.qm;E:\QGIS\Build174\i18n\qgis_ro.qm;E:\QGIS\Build174\i18n\qgis_ru.qm;E:\QGIS\Build174\i18n\qgis_sk.qm;E:\QGIS\Build174\i18n\qgis_sl_SI.qm;E:\QGIS\Build174\i18n\qgis_sq_AL.qm;E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm;E:\QGIS\Build174\i18n\qgis_sv.qm;E:\QGIS\Build174\i18n\qgis_ta.qm;E:\QGIS\Build174\i18n\qgis_th.qm;E:\QGIS\Build174\i18n\qgis_tr.qm;E:\QGIS\Build174\i18n\qgis_uk.qm;E:\QGIS\Build174\i18n\qgis_vi.qm;E:\QGIS\Build174\i18n\qgis_xh.qm;E:\QGIS\Build174\i18n\qgis_zh_CN.qm;E:\QGIS\Build174\i18n\qgis_zh_TW.qm;"
+					Outputs="E:\QGIS\Build174\i18n\CMakeFiles\translations"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_af.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_af.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_af.ts -qm E:/QGIS/Build174/i18n/qgis_af.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_af.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_af.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_af.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_af.ts -qm E:/QGIS/Build174/i18n/qgis_af.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_af.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_af.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_af.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_af.ts -qm E:/QGIS/Build174/i18n/qgis_af.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_af.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_af.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_af.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_af.ts -qm E:/QGIS/Build174/i18n/qgis_af.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_af.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_af.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ar.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ar.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ar.ts -qm E:/QGIS/Build174/i18n/qgis_ar.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ar.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ar.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ar.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ar.ts -qm E:/QGIS/Build174/i18n/qgis_ar.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ar.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ar.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ar.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ar.ts -qm E:/QGIS/Build174/i18n/qgis_ar.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ar.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ar.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ar.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ar.ts -qm E:/QGIS/Build174/i18n/qgis_ar.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ar.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ar.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_bg.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_bg.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_bg.ts -qm E:/QGIS/Build174/i18n/qgis_bg.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_bg.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_bg.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_bg.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_bg.ts -qm E:/QGIS/Build174/i18n/qgis_bg.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_bg.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_bg.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_bg.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_bg.ts -qm E:/QGIS/Build174/i18n/qgis_bg.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_bg.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_bg.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_bg.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_bg.ts -qm E:/QGIS/Build174/i18n/qgis_bg.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_bg.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_bg.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ca_ES.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ca_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ca_ES.ts -qm E:/QGIS/Build174/i18n/qgis_ca_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ca_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ca_ES.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ca_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ca_ES.ts -qm E:/QGIS/Build174/i18n/qgis_ca_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ca_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ca_ES.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ca_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ca_ES.ts -qm E:/QGIS/Build174/i18n/qgis_ca_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ca_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ca_ES.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ca_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ca_ES.ts -qm E:/QGIS/Build174/i18n/qgis_ca_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ca_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ca_ES.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_cs_CZ.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_cs_CZ.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_cs_CZ.ts -qm E:/QGIS/Build174/i18n/qgis_cs_CZ.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_cs_CZ.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_cs_CZ.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_cs_CZ.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_cs_CZ.ts -qm E:/QGIS/Build174/i18n/qgis_cs_CZ.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_cs_CZ.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_cs_CZ.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_cs_CZ.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_cs_CZ.ts -qm E:/QGIS/Build174/i18n/qgis_cs_CZ.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_cs_CZ.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_cs_CZ.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_cs_CZ.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_cs_CZ.ts -qm E:/QGIS/Build174/i18n/qgis_cs_CZ.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_cs_CZ.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_cs_CZ.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_de.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_de.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_de.ts -qm E:/QGIS/Build174/i18n/qgis_de.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_de.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_de.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_de.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_de.ts -qm E:/QGIS/Build174/i18n/qgis_de.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_de.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_de.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_de.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_de.ts -qm E:/QGIS/Build174/i18n/qgis_de.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_de.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_de.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_de.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_de.ts -qm E:/QGIS/Build174/i18n/qgis_de.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_de.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_de.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_el_GR.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_el_GR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_el_GR.ts -qm E:/QGIS/Build174/i18n/qgis_el_GR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_el_GR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_el_GR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_el_GR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_el_GR.ts -qm E:/QGIS/Build174/i18n/qgis_el_GR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_el_GR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_el_GR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_el_GR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_el_GR.ts -qm E:/QGIS/Build174/i18n/qgis_el_GR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_el_GR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_el_GR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_el_GR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_el_GR.ts -qm E:/QGIS/Build174/i18n/qgis_el_GR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_el_GR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_el_GR.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_es.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_es.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_es.ts -qm E:/QGIS/Build174/i18n/qgis_es.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_es.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_es.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_es.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_es.ts -qm E:/QGIS/Build174/i18n/qgis_es.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_es.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_es.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_es.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_es.ts -qm E:/QGIS/Build174/i18n/qgis_es.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_es.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_es.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_es.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_es.ts -qm E:/QGIS/Build174/i18n/qgis_es.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_es.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_es.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_et.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_et.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_et.ts -qm E:/QGIS/Build174/i18n/qgis_et.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_et.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_et.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_et.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_et.ts -qm E:/QGIS/Build174/i18n/qgis_et.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_et.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_et.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_et.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_et.ts -qm E:/QGIS/Build174/i18n/qgis_et.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_et.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_et.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_et.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_et.ts -qm E:/QGIS/Build174/i18n/qgis_et.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_et.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_et.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_fa.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fa.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fa.ts -qm E:/QGIS/Build174/i18n/qgis_fa.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fa.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fa.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fa.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fa.ts -qm E:/QGIS/Build174/i18n/qgis_fa.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fa.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fa.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fa.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fa.ts -qm E:/QGIS/Build174/i18n/qgis_fa.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fa.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fa.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fa.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fa.ts -qm E:/QGIS/Build174/i18n/qgis_fa.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fa.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fa.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_fi.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fi.ts -qm E:/QGIS/Build174/i18n/qgis_fi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fi.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fi.ts -qm E:/QGIS/Build174/i18n/qgis_fi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fi.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fi.ts -qm E:/QGIS/Build174/i18n/qgis_fi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fi.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fi.ts -qm E:/QGIS/Build174/i18n/qgis_fi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fi.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_fr.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fr.ts -qm E:/QGIS/Build174/i18n/qgis_fr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fr.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fr.ts -qm E:/QGIS/Build174/i18n/qgis_fr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fr.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fr.ts -qm E:/QGIS/Build174/i18n/qgis_fr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fr.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_fr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_fr.ts -qm E:/QGIS/Build174/i18n/qgis_fr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_fr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_fr.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_gl_ES.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_gl_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_gl_ES.ts -qm E:/QGIS/Build174/i18n/qgis_gl_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_gl_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_gl_ES.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_gl_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_gl_ES.ts -qm E:/QGIS/Build174/i18n/qgis_gl_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_gl_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_gl_ES.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_gl_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_gl_ES.ts -qm E:/QGIS/Build174/i18n/qgis_gl_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_gl_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_gl_ES.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_gl_ES.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_gl_ES.ts -qm E:/QGIS/Build174/i18n/qgis_gl_ES.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_gl_ES.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_gl_ES.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_he.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_he.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_he.ts -qm E:/QGIS/Build174/i18n/qgis_he.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_he.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_he.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_he.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_he.ts -qm E:/QGIS/Build174/i18n/qgis_he.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_he.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_he.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_he.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_he.ts -qm E:/QGIS/Build174/i18n/qgis_he.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_he.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_he.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_he.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_he.ts -qm E:/QGIS/Build174/i18n/qgis_he.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_he.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_he.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_hr_HR.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hr_HR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hr_HR.ts -qm E:/QGIS/Build174/i18n/qgis_hr_HR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hr_HR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hr_HR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hr_HR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hr_HR.ts -qm E:/QGIS/Build174/i18n/qgis_hr_HR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hr_HR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hr_HR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hr_HR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hr_HR.ts -qm E:/QGIS/Build174/i18n/qgis_hr_HR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hr_HR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hr_HR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hr_HR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hr_HR.ts -qm E:/QGIS/Build174/i18n/qgis_hr_HR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hr_HR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hr_HR.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_hu.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hu.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hu.ts -qm E:/QGIS/Build174/i18n/qgis_hu.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hu.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hu.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hu.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hu.ts -qm E:/QGIS/Build174/i18n/qgis_hu.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hu.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hu.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hu.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hu.ts -qm E:/QGIS/Build174/i18n/qgis_hu.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hu.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hu.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_hu.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_hu.ts -qm E:/QGIS/Build174/i18n/qgis_hu.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_hu.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_hu.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_id.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_id.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_id.ts -qm E:/QGIS/Build174/i18n/qgis_id.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_id.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_id.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_id.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_id.ts -qm E:/QGIS/Build174/i18n/qgis_id.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_id.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_id.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_id.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_id.ts -qm E:/QGIS/Build174/i18n/qgis_id.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_id.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_id.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_id.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_id.ts -qm E:/QGIS/Build174/i18n/qgis_id.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_id.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_id.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_is.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_is.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_is.ts -qm E:/QGIS/Build174/i18n/qgis_is.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_is.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_is.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_is.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_is.ts -qm E:/QGIS/Build174/i18n/qgis_is.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_is.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_is.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_is.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_is.ts -qm E:/QGIS/Build174/i18n/qgis_is.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_is.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_is.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_is.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_is.ts -qm E:/QGIS/Build174/i18n/qgis_is.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_is.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_is.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_it.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_it.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_it.ts -qm E:/QGIS/Build174/i18n/qgis_it.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_it.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_it.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_it.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_it.ts -qm E:/QGIS/Build174/i18n/qgis_it.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_it.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_it.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_it.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_it.ts -qm E:/QGIS/Build174/i18n/qgis_it.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_it.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_it.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_it.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_it.ts -qm E:/QGIS/Build174/i18n/qgis_it.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_it.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_it.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ja.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ja.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ja.ts -qm E:/QGIS/Build174/i18n/qgis_ja.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ja.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ja.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ja.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ja.ts -qm E:/QGIS/Build174/i18n/qgis_ja.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ja.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ja.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ja.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ja.ts -qm E:/QGIS/Build174/i18n/qgis_ja.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ja.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ja.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ja.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ja.ts -qm E:/QGIS/Build174/i18n/qgis_ja.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ja.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ja.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ka_GE.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ka_GE.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ka_GE.ts -qm E:/QGIS/Build174/i18n/qgis_ka_GE.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ka_GE.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ka_GE.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ka_GE.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ka_GE.ts -qm E:/QGIS/Build174/i18n/qgis_ka_GE.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ka_GE.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ka_GE.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ka_GE.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ka_GE.ts -qm E:/QGIS/Build174/i18n/qgis_ka_GE.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ka_GE.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ka_GE.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ka_GE.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ka_GE.ts -qm E:/QGIS/Build174/i18n/qgis_ka_GE.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ka_GE.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ka_GE.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ko_KR.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ko_KR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ko_KR.ts -qm E:/QGIS/Build174/i18n/qgis_ko_KR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ko_KR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ko_KR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ko_KR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ko_KR.ts -qm E:/QGIS/Build174/i18n/qgis_ko_KR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ko_KR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ko_KR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ko_KR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ko_KR.ts -qm E:/QGIS/Build174/i18n/qgis_ko_KR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ko_KR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ko_KR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ko_KR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ko_KR.ts -qm E:/QGIS/Build174/i18n/qgis_ko_KR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ko_KR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ko_KR.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_lo.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lo.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lo.ts -qm E:/QGIS/Build174/i18n/qgis_lo.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lo.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lo.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lo.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lo.ts -qm E:/QGIS/Build174/i18n/qgis_lo.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lo.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lo.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lo.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lo.ts -qm E:/QGIS/Build174/i18n/qgis_lo.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lo.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lo.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lo.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lo.ts -qm E:/QGIS/Build174/i18n/qgis_lo.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lo.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lo.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_lt.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lt.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lt.ts -qm E:/QGIS/Build174/i18n/qgis_lt.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lt.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lt.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lt.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lt.ts -qm E:/QGIS/Build174/i18n/qgis_lt.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lt.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lt.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lt.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lt.ts -qm E:/QGIS/Build174/i18n/qgis_lt.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lt.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lt.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lt.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lt.ts -qm E:/QGIS/Build174/i18n/qgis_lt.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lt.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lt.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_lv.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lv.ts -qm E:/QGIS/Build174/i18n/qgis_lv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lv.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lv.ts -qm E:/QGIS/Build174/i18n/qgis_lv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lv.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lv.ts -qm E:/QGIS/Build174/i18n/qgis_lv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lv.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_lv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_lv.ts -qm E:/QGIS/Build174/i18n/qgis_lv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_lv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_lv.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_mn.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_mn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_mn.ts -qm E:/QGIS/Build174/i18n/qgis_mn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_mn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_mn.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_mn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_mn.ts -qm E:/QGIS/Build174/i18n/qgis_mn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_mn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_mn.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_mn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_mn.ts -qm E:/QGIS/Build174/i18n/qgis_mn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_mn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_mn.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_mn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_mn.ts -qm E:/QGIS/Build174/i18n/qgis_mn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_mn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_mn.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_nl.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_nl.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_nl.ts -qm E:/QGIS/Build174/i18n/qgis_nl.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_nl.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_nl.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_nl.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_nl.ts -qm E:/QGIS/Build174/i18n/qgis_nl.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_nl.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_nl.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_nl.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_nl.ts -qm E:/QGIS/Build174/i18n/qgis_nl.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_nl.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_nl.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_nl.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_nl.ts -qm E:/QGIS/Build174/i18n/qgis_nl.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_nl.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_nl.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_pl_PL.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pl_PL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pl_PL.ts -qm E:/QGIS/Build174/i18n/qgis_pl_PL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pl_PL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pl_PL.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pl_PL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pl_PL.ts -qm E:/QGIS/Build174/i18n/qgis_pl_PL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pl_PL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pl_PL.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pl_PL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pl_PL.ts -qm E:/QGIS/Build174/i18n/qgis_pl_PL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pl_PL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pl_PL.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pl_PL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pl_PL.ts -qm E:/QGIS/Build174/i18n/qgis_pl_PL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pl_PL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pl_PL.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_pt_BR.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_BR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_BR.ts -qm E:/QGIS/Build174/i18n/qgis_pt_BR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_BR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_BR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_BR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_BR.ts -qm E:/QGIS/Build174/i18n/qgis_pt_BR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_BR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_BR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_BR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_BR.ts -qm E:/QGIS/Build174/i18n/qgis_pt_BR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_BR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_BR.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_BR.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_BR.ts -qm E:/QGIS/Build174/i18n/qgis_pt_BR.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_BR.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_BR.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_pt_PT.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_PT.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_PT.ts -qm E:/QGIS/Build174/i18n/qgis_pt_PT.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_PT.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_PT.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_PT.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_PT.ts -qm E:/QGIS/Build174/i18n/qgis_pt_PT.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_PT.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_PT.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_PT.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_PT.ts -qm E:/QGIS/Build174/i18n/qgis_pt_PT.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_PT.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_PT.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_pt_PT.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_pt_PT.ts -qm E:/QGIS/Build174/i18n/qgis_pt_PT.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_pt_PT.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_pt_PT.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ro.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ro.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ro.ts -qm E:/QGIS/Build174/i18n/qgis_ro.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ro.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ro.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ro.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ro.ts -qm E:/QGIS/Build174/i18n/qgis_ro.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ro.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ro.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ro.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ro.ts -qm E:/QGIS/Build174/i18n/qgis_ro.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ro.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ro.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ro.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ro.ts -qm E:/QGIS/Build174/i18n/qgis_ro.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ro.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ro.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ru.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ru.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ru.ts -qm E:/QGIS/Build174/i18n/qgis_ru.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ru.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ru.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ru.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ru.ts -qm E:/QGIS/Build174/i18n/qgis_ru.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ru.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ru.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ru.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ru.ts -qm E:/QGIS/Build174/i18n/qgis_ru.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ru.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ru.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ru.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ru.ts -qm E:/QGIS/Build174/i18n/qgis_ru.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ru.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ru.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_sk.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sk.ts -qm E:/QGIS/Build174/i18n/qgis_sk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sk.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sk.ts -qm E:/QGIS/Build174/i18n/qgis_sk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sk.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sk.ts -qm E:/QGIS/Build174/i18n/qgis_sk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sk.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sk.ts -qm E:/QGIS/Build174/i18n/qgis_sk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sk.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_sl_SI.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sl_SI.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sl_SI.ts -qm E:/QGIS/Build174/i18n/qgis_sl_SI.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sl_SI.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sl_SI.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sl_SI.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sl_SI.ts -qm E:/QGIS/Build174/i18n/qgis_sl_SI.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sl_SI.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sl_SI.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sl_SI.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sl_SI.ts -qm E:/QGIS/Build174/i18n/qgis_sl_SI.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sl_SI.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sl_SI.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sl_SI.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sl_SI.ts -qm E:/QGIS/Build174/i18n/qgis_sl_SI.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sl_SI.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sl_SI.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_sq_AL.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sq_AL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sq_AL.ts -qm E:/QGIS/Build174/i18n/qgis_sq_AL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sq_AL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sq_AL.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sq_AL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sq_AL.ts -qm E:/QGIS/Build174/i18n/qgis_sq_AL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sq_AL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sq_AL.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sq_AL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sq_AL.ts -qm E:/QGIS/Build174/i18n/qgis_sq_AL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sq_AL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sq_AL.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sq_AL.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sq_AL.ts -qm E:/QGIS/Build174/i18n/qgis_sq_AL.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sq_AL.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sq_AL.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sr_CS-Latn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sr_CS-Latn.ts -qm E:/QGIS/Build174/i18n/qgis_sr_CS-Latn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sr_CS-Latn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sr_CS-Latn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sr_CS-Latn.ts -qm E:/QGIS/Build174/i18n/qgis_sr_CS-Latn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sr_CS-Latn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sr_CS-Latn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sr_CS-Latn.ts -qm E:/QGIS/Build174/i18n/qgis_sr_CS-Latn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sr_CS-Latn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sr_CS-Latn.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sr_CS-Latn.ts -qm E:/QGIS/Build174/i18n/qgis_sr_CS-Latn.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sr_CS-Latn.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sr_CS-Latn.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_sv.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sv.ts -qm E:/QGIS/Build174/i18n/qgis_sv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sv.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sv.ts -qm E:/QGIS/Build174/i18n/qgis_sv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sv.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sv.ts -qm E:/QGIS/Build174/i18n/qgis_sv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sv.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_sv.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_sv.ts -qm E:/QGIS/Build174/i18n/qgis_sv.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_sv.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_sv.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_ta.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ta.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ta.ts -qm E:/QGIS/Build174/i18n/qgis_ta.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ta.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ta.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ta.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ta.ts -qm E:/QGIS/Build174/i18n/qgis_ta.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ta.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ta.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ta.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ta.ts -qm E:/QGIS/Build174/i18n/qgis_ta.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ta.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ta.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_ta.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_ta.ts -qm E:/QGIS/Build174/i18n/qgis_ta.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_ta.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_ta.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_th.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_th.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_th.ts -qm E:/QGIS/Build174/i18n/qgis_th.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_th.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_th.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_th.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_th.ts -qm E:/QGIS/Build174/i18n/qgis_th.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_th.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_th.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_th.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_th.ts -qm E:/QGIS/Build174/i18n/qgis_th.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_th.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_th.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_th.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_th.ts -qm E:/QGIS/Build174/i18n/qgis_th.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_th.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_th.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_tr.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_tr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_tr.ts -qm E:/QGIS/Build174/i18n/qgis_tr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_tr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_tr.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_tr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_tr.ts -qm E:/QGIS/Build174/i18n/qgis_tr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_tr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_tr.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_tr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_tr.ts -qm E:/QGIS/Build174/i18n/qgis_tr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_tr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_tr.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_tr.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_tr.ts -qm E:/QGIS/Build174/i18n/qgis_tr.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_tr.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_tr.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_uk.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_uk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_uk.ts -qm E:/QGIS/Build174/i18n/qgis_uk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_uk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_uk.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_uk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_uk.ts -qm E:/QGIS/Build174/i18n/qgis_uk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_uk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_uk.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_uk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_uk.ts -qm E:/QGIS/Build174/i18n/qgis_uk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_uk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_uk.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_uk.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_uk.ts -qm E:/QGIS/Build174/i18n/qgis_uk.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_uk.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_uk.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_vi.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_vi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_vi.ts -qm E:/QGIS/Build174/i18n/qgis_vi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_vi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_vi.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_vi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_vi.ts -qm E:/QGIS/Build174/i18n/qgis_vi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_vi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_vi.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_vi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_vi.ts -qm E:/QGIS/Build174/i18n/qgis_vi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_vi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_vi.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_vi.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_vi.ts -qm E:/QGIS/Build174/i18n/qgis_vi.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_vi.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_vi.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_xh.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_xh.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_xh.ts -qm E:/QGIS/Build174/i18n/qgis_xh.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_xh.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_xh.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_xh.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_xh.ts -qm E:/QGIS/Build174/i18n/qgis_xh.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_xh.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_xh.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_xh.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_xh.ts -qm E:/QGIS/Build174/i18n/qgis_xh.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_xh.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_xh.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_xh.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_xh.ts -qm E:/QGIS/Build174/i18n/qgis_xh.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_xh.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_xh.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_zh_CN.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_CN.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_CN.ts -qm E:/QGIS/Build174/i18n/qgis_zh_CN.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_CN.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_CN.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_CN.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_CN.ts -qm E:/QGIS/Build174/i18n/qgis_zh_CN.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_CN.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_CN.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_CN.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_CN.ts -qm E:/QGIS/Build174/i18n/qgis_zh_CN.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_CN.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_CN.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_CN.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_CN.ts -qm E:/QGIS/Build174/i18n/qgis_zh_CN.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_CN.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_CN.qm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\QGIS\Build174\i18n\qgis_zh_TW.qm.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_TW.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_TW.ts -qm E:/QGIS/Build174/i18n/qgis_zh_TW.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_TW.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_TW.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_TW.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_TW.ts -qm E:/QGIS/Build174/i18n/qgis_zh_TW.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_TW.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_TW.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_TW.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_TW.ts -qm E:/QGIS/Build174/i18n/qgis_zh_TW.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_TW.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_TW.qm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qgis_zh_TW.qm"
+					CommandLine="C:\Qt\4.8.1\bin\lrelease.exe -verbose E:/QGIS/qgis-1.7.4/i18n/qgis_zh_TW.ts -qm E:/QGIS/Build174/i18n/qgis_zh_TW.qm&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\QGIS\qgis-1.7.4\i18n\qgis_zh_TW.ts;"
+					Outputs="E:\QGIS\Build174\i18n\qgis_zh_TW.qm"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
